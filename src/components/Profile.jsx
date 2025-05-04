@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import Navbar from "./elements/Navbar";
+import Navbar from "./element/navbar";
 import swal from "sweetalert2";
 
 export default function ProfilePage() {
