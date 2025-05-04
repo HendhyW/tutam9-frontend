@@ -2,7 +2,7 @@ import { FaArrowCircleRight , FaArrowCircleLeft  } from "react-icons/fa";
 import { useState } from "react";
 
 
-export function CarouselGame({ slides }) {
+export default function CarouselGame({ slides }) {
     const [current, setCurrent] = useState(0);
 
     const previousSlide = () => {
